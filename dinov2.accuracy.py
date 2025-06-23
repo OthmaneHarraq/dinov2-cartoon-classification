@@ -135,6 +135,10 @@ def evaluate_logreg(X, y, name=""):
 evaluate_logreg(X_rgb, y_rgb_mapped, "RGB")
 evaluate_logreg(X_mask, y_mask_mapped, "Mask")
 
+# Output:
+# RGB Accuracy (Logistic Regression): 98.73%
+# Mask Accuracy (Logistic Regression): 89.51%
+
 # Calculate weighted average accuracy based on dataset sizes
 rgb_acc = 98.73
 rgb_n = 2937
@@ -143,3 +147,5 @@ mask_n = 781
 
 total_acc = (rgb_acc * rgb_n + mask_acc * mask_n) / (rgb_n + mask_n)
 print(f"Total Weighted Accuracy: {total_acc:.2f}%")
+# Output: 
+# Total Weighted Accuracy: 96.79%
