@@ -31,7 +31,7 @@ Dataset includes RGB and masked cartoon character images from 30+ classes.
 
 Dataset link (Google Drive): [Cartoon Dataset](https://drive.google.com/drive/folders/1vhw907BYVosw7wMKmhD7CAe4x0NbenIG)
 
-## ⚙️ Requirements
+## Requirements
 
 - Python ≥ 3.8  
 - PyTorch  
