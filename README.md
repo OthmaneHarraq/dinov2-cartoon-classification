@@ -39,4 +39,3 @@ Dataset link (Google Drive): [Cartoon Dataset](https://drive.google.com/drive/fo
 - transformers  
 - scikit-learn  
 - tqdm
-- 
